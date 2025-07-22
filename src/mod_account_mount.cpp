@@ -18,8 +18,8 @@ public:
     })
     {
         // Retrieve limitRace / limitClass options from the config file
-        limitRace = sConfigMgr->GetOption<bool>("Account.Mounts.LimitRace", false);
-        limitClass = sConfigMgr->GetOption<bool>("Account.Mounts.LimitClass", false);
+        limitRace = sConfigMgr->GetOption<bool>("Account.Mounts.LimitRace", true);
+        limitClass = sConfigMgr->GetOption<bool>("Account.Mounts.LimitClass", true);
         // Retrieve the string of excluded Spell IDs from the config file
         std::string excludedSpellsStr = sConfigMgr->GetOption<std::string>("Account.Mounts.ExcludedSpellIDs", "");
         // Proceed only if the configuration is not "0" or empty, indicating exclusions are specified
