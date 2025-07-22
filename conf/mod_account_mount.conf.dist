@@ -27,4 +27,4 @@ Account.Mounts.LimitRace = 1
 # 0 = will allow any class to own other class-specific mounts.
 # 1 = will enforce the limit.
 
-Account.Mounts.LimitRace = 1
+Account.Mounts.LimitClass = 1
